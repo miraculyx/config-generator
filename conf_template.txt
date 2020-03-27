@@ -1,0 +1,15 @@
+#
+ version 7.1.045, Release 1121P03
+#
+ sysname { hostname }
+#
+interface Ten-GigabitEthernet1/0/1
+ ip address { xge1-1 } 30
+#
+interface Ten-GigabitEthernet2/0/1
+ ip address { xge2-1 } 30
+#
+interface M-GigabitEthernet0/0/0
+ ip binding vpn-instance mgmt
+ ip address { mgmt_ip } 24
+#
