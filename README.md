@@ -5,3 +5,6 @@ All parameters of an Excel or CSV file have to be terminated by these kind of br
 The parameter hostname in the Excel File has to be inserted as { hostname }
 as a variable for other devices.
 There is no limit of the possible varibales you can use in your template.
+
+confgen.py <template-file> <csv-file>
+
